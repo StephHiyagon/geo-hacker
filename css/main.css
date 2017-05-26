@@ -30,5 +30,26 @@ padding: 10px;
 }
 
 .btn-enc{
-  margin-top: 10px;
+margin-top: 10px;
+width: 100%;
+color:black;
+background-color: white;
+}
+
+div.tarifa{
+  position:absolute;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  bottom: 0;
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  color:white;
+  font-size: 2rem;
+}
+
+div.none{
+  display:none;
 }
